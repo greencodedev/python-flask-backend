@@ -1,0 +1,13 @@
+{% extends 'base.html' %} {% block content %}
+<h1>{% block title %} Welcome to Test {% endblock %}</h1>
+<div class="container-area">
+  <div class="content">
+    <p id="error"></p>
+    <div class="input-area">
+      <input type="text" placeholder="Enter the text" id="input" />
+      <p id="error-validation"></p>
+    </div>
+    <button id="button">Submit</button>
+  </div>
+</div>
+{% endblock %}
