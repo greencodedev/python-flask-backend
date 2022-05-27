@@ -22,7 +22,6 @@ def index():
 def create():
     """
         create() : Add document to Firestore collection with request body
-        Ensure you pass a custom ID as part of json body in post request
         e.g. json={'text': 'Write a blog post'}
     """
     try:
@@ -57,7 +56,7 @@ def read():
 def update():
     """
         update() : Update document in Firestore collection with request body
-        Ensure you pass a custom ID as part of json body in post request
+        Ensure you pass an ID as part of json body in post request
         e.g. json={'id': '1', 'text': 'Write a blog post today'}
     """
     try:
@@ -72,6 +71,7 @@ def update():
 def delete():
     """
         delete() : Delete a document from Firestore collection
+        Ensure you pass an ID into post request
 
     """
     try:
