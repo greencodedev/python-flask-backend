@@ -71,8 +71,6 @@ def update():
 def delete():
     """
         delete() : Delete a document from Firestore collection
-        Ensure you pass an ID into post request
-
     """
     try:
         # Check for ID in URL query
