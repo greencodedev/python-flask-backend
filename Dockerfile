@@ -6,4 +6,4 @@ WORKDIR /srv/flask_app
 RUN pip install -r requirements.txt --src /usr/local/src
 COPY nginx.conf /etc/nginx
 RUN chmod +x ./start.sh
-CMD ["./start.sh"]
+CMD ["python3", "main.py"]
