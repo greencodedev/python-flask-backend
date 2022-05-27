@@ -1,3 +1,10 @@
+# Google App Engine Samples
+
+[![Open in Cloud Shell][shell_img]][shell_link]
+
+[shell_img]: http://gstatic.com/cloudssh/images/open-btn.png
+[shell_link]: https://console.cloud.google.com/cloudshell/open?git_repo=https://github.com/greencodedev/python-flask-backend&page=editor&open_in_editor=appengine/standard/README.md
+
 [![Run on Google Cloud](https://deploy.cloud.run/button.svg)](https://deploy.cloud.run)
 
 # flask-firestore
