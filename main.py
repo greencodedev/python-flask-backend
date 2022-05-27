@@ -15,7 +15,8 @@ todo_ref = db.collection('texts')
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    # return render_template('index.html')
+    return "Hello my client"
 
 
 @app.route('/add', methods=['POST'])
